@@ -1,0 +1,133 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+  text-align: center;
+}
+
+* {
+  color: #393E46;
+}
+
+/* ここからcssを書いていきましょう */
+/* ヘッダー */
+#header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#header img {
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#header a {
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+#header a:hover {
+  opacity: 0.7;
+}
+
+#header ul {
+  display: flex;
+}
+
+#header li {
+  margin-left: 30px;
+}
+
+
+/* メイン */
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+  font-size: 2rem;
+}
+
+#bicycle h2 {
+  margin-top: 100px;
+}
+
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+#about .text {
+  text-align: left;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+#about p ,#bicycle p{
+  font-size: 0.9rem;
+}
+
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bicycle li {
+  width: 32%;
+}
+
+#bicycle .content {
+  margin-bottom: 100px;
+}
+
+footer {
+  text-align: center;
+  height: 35px;
+  font-size: 0.5rem;
+  padding: 10px 0;
+}
